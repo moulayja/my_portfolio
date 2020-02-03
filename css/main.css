@@ -308,12 +308,15 @@ main {
       font-family: 'Righteous', cursive;
     }
     .textBox{
-      background-color: rgba(0, 0, 0, 0.1);
+      background-color: rgba(0, 0, 0, 0.4);
       border-radius: 20px;
       margin: 0 auto;
       padding: 10px;
     }
 
     .textFont{
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: rgb(255, 255, 255);
+      line-height: 1.6;
+
     }
