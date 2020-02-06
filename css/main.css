@@ -330,7 +330,7 @@ main {
     a:focus,
     a:focus:active {
       background-image: none;
-      outline: 0;
+      outline: none !important;;
       box-shadow: none;
 }
 
