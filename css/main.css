@@ -332,7 +332,15 @@ main {
       background-image: none;
       outline: none !important;;
       box-shadow: none;
+      -webkit-tap-highlight-color: transparent;
+
 }
 
+div{
+  -webkit-tap-highlight-color: transparent;
 
-    body, html { overflow-x:hidden; }
+}
+
+    body, html { overflow-x:hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
