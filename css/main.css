@@ -326,9 +326,9 @@ main {
       line-height: 1.6;
     }
 
-    li:active,
-    li:focus,
-    li:focus:active {
+    a:active,
+    a:focus,
+    a:focus:active {
       background-image: none;
       outline: 0;
       box-shadow: none;
