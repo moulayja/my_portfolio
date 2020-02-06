@@ -27,7 +27,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -43,14 +43,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background:  rgb(15, 3, 83); 
+    background:  rgba(15, 3, 83, 1); 
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background:rgb(0, 0, 0); 
+    background:rgb(16, 19, 41);  
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -60,7 +60,7 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 4px #2E3257; }
+      border: solid 2px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
