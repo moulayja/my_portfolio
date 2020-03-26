@@ -43,14 +43,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background:  rgba(15, 3, 83, 1); 
+    background:  rgb(3, 2, 10); 
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background:rgb(16, 19, 41);  
+    background:rgb(20, 20, 20);  
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
